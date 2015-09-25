@@ -5,6 +5,8 @@ build_dir=$1
 cache_dir=$2
 env_dir=$3
 
+echo "This is happening"
+
 source $bp_dir/lib/common.sh
 
 export_env_dir $env_dir
