@@ -8,7 +8,6 @@ env_dir=$3
 source $bp_dir/lib/common.sh
 
 export_env_dir $env_dir
-cd $build_dir
 
 head "Building webpack bundle"
-rake webpack:compile
+cd $build_dir && bundle exec rake webpack:compile
