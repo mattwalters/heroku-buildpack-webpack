@@ -11,4 +11,4 @@ export_env_dir $env_dir
 cd $build_dir
 
 head "Building webpack bundle"
-bundle exec rake webpack:compile
+rake webpack:compile
